@@ -19,17 +19,6 @@ if (isset($_GET['views'])) {
 
 <body>
     <?php require_once  "./app/views/inc/script.php"; ?>
-    <div class="buttons">
-        <button class="button is-primary is-dark">Primary</button>
-        <button class="button is-link is-dark">Link</button>
-    </div>
-
-    <div class="buttons">
-        <button class="button is-info is-dark">Info</button>
-        <button class="button is-success is-dark">Success</button>
-        <button class="button is-warning is-dark">Warning</button>
-        <button class="button is-danger is-dark">Danger</button>
-    </div>
 </body>
 
 </html>
